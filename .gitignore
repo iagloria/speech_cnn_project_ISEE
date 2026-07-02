@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor settings
+.vscode/
+
+# Large generated assets
+data/
+models/
+recordings/
+
+# Bundled exports / backups
+*.zip
+巩子杰-3240105977-课程设计工程文件/
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.xdv
+
+# OS / temp
+Thumbs.db
+*.tmp

@@ -1,0 +1,862 @@
+{
+  "timestamp": "20260701_191856",
+  "model": "D:\\桌面\\屎\\信号与系统\\课程设计\\speech_cnn_project\\models\\v2_bilingual_40\\bilingual_v4_weighted_sqrt\\best_model.pth",
+  "recordings_dir": "D:\\桌面\\屎\\信号与系统\\课程设计\\speech_cnn_project\\recordings\\20260618_004206",
+  "note": "Evaluation of saved real UI recordings; expected labels are parsed from filenames.",
+  "totals": {
+    "overall": {
+      "correct": 12,
+      "total": 23,
+      "accuracy": 0.5217391304347826
+    },
+    "EN": {
+      "correct": 12,
+      "total": 14,
+      "accuracy": 0.8571428571428571
+    },
+    "ZH": {
+      "correct": 0,
+      "total": 9,
+      "accuracy": 0.0
+    }
+  },
+  "per_word": {
+    "down": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "five": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "four": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "left": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "nine": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "no": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "on": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "one": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "right": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "seven": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "stop": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "two": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "up": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "zero": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "zh_down": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_five": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_four": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_go": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_left": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_six": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_stop": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_three": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    "zh_zero": {
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    }
+  },
+  "per_folder": {
+    "20260618_004206": {
+      "correct": 12,
+      "total": 23,
+      "accuracy": 0.5217391304347826
+    }
+  },
+  "details": [
+    {
+      "folder": "20260618_004206",
+      "file": "down_013.wav",
+      "expected": "down",
+      "predicted": "go",
+      "language": "EN",
+      "confidence": 0.31466951966285706,
+      "correct": false,
+      "top5": [
+        {
+          "word": "go",
+          "confidence": 0.31466951966285706
+        },
+        {
+          "word": "down",
+          "confidence": 0.22594623267650604
+        },
+        {
+          "word": "stop",
+          "confidence": 0.10203506797552109
+        },
+        {
+          "word": "up",
+          "confidence": 0.047161348164081573
+        },
+        {
+          "word": "no",
+          "confidence": 0.041336558759212494
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "five_000.wav",
+      "expected": "five",
+      "predicted": "five",
+      "language": "EN",
+      "confidence": 0.8096271753311157,
+      "correct": true,
+      "top5": [
+        {
+          "word": "five",
+          "confidence": 0.8096271753311157
+        },
+        {
+          "word": "right",
+          "confidence": 0.026751337572932243
+        },
+        {
+          "word": "zh_on",
+          "confidence": 0.016656752675771713
+        },
+        {
+          "word": "zh_off",
+          "confidence": 0.013052969239652157
+        },
+        {
+          "word": "zh_eight",
+          "confidence": 0.011323346756398678
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "four_004.wav",
+      "expected": "four",
+      "predicted": "four",
+      "language": "EN",
+      "confidence": 0.5857275128364563,
+      "correct": true,
+      "top5": [
+        {
+          "word": "four",
+          "confidence": 0.5857275128364563
+        },
+        {
+          "word": "zero",
+          "confidence": 0.14977921545505524
+        },
+        {
+          "word": "two",
+          "confidence": 0.039882298558950424
+        },
+        {
+          "word": "three",
+          "confidence": 0.022004995495080948
+        },
+        {
+          "word": "go",
+          "confidence": 0.015518508851528168
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "left_016.wav",
+      "expected": "left",
+      "predicted": "left",
+      "language": "EN",
+      "confidence": 0.7698642611503601,
+      "correct": true,
+      "top5": [
+        {
+          "word": "left",
+          "confidence": 0.7698642611503601
+        },
+        {
+          "word": "no",
+          "confidence": 0.032347168773412704
+        },
+        {
+          "word": "yes",
+          "confidence": 0.015620758756995201
+        },
+        {
+          "word": "zh_right",
+          "confidence": 0.013457891531288624
+        },
+        {
+          "word": "right",
+          "confidence": 0.010950666852295399
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "nine_018.wav",
+      "expected": "nine",
+      "predicted": "nine",
+      "language": "EN",
+      "confidence": 0.29737696051597595,
+      "correct": true,
+      "top5": [
+        {
+          "word": "nine",
+          "confidence": 0.29737696051597595
+        },
+        {
+          "word": "five",
+          "confidence": 0.2648802101612091
+        },
+        {
+          "word": "right",
+          "confidence": 0.06266570091247559
+        },
+        {
+          "word": "on",
+          "confidence": 0.05489178001880646
+        },
+        {
+          "word": "three",
+          "confidence": 0.0339471772313118
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "no_007.wav",
+      "expected": "no",
+      "predicted": "no",
+      "language": "EN",
+      "confidence": 0.17822310328483582,
+      "correct": true,
+      "top5": [
+        {
+          "word": "no",
+          "confidence": 0.17822310328483582
+        },
+        {
+          "word": "go",
+          "confidence": 0.12125787138938904
+        },
+        {
+          "word": "up",
+          "confidence": 0.0573221854865551
+        },
+        {
+          "word": "down",
+          "confidence": 0.051985885947942734
+        },
+        {
+          "word": "off",
+          "confidence": 0.049473632127046585
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "on_001.wav",
+      "expected": "on",
+      "predicted": "up",
+      "language": "EN",
+      "confidence": 0.16622087359428406,
+      "correct": false,
+      "top5": [
+        {
+          "word": "up",
+          "confidence": 0.16622087359428406
+        },
+        {
+          "word": "eight",
+          "confidence": 0.12540599703788757
+        },
+        {
+          "word": "left",
+          "confidence": 0.11855863034725189
+        },
+        {
+          "word": "off",
+          "confidence": 0.1138431578874588
+        },
+        {
+          "word": "no",
+          "confidence": 0.048265840858221054
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "one_019.wav",
+      "expected": "one",
+      "predicted": "one",
+      "language": "EN",
+      "confidence": 0.7151203155517578,
+      "correct": true,
+      "top5": [
+        {
+          "word": "one",
+          "confidence": 0.7151203155517578
+        },
+        {
+          "word": "right",
+          "confidence": 0.03398468717932701
+        },
+        {
+          "word": "zh_five",
+          "confidence": 0.018542379140853882
+        },
+        {
+          "word": "no",
+          "confidence": 0.01794838160276413
+        },
+        {
+          "word": "four",
+          "confidence": 0.017614401876926422
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "right_008.wav",
+      "expected": "right",
+      "predicted": "right",
+      "language": "EN",
+      "confidence": 0.7239692807197571,
+      "correct": true,
+      "top5": [
+        {
+          "word": "right",
+          "confidence": 0.7239692807197571
+        },
+        {
+          "word": "one",
+          "confidence": 0.07007384300231934
+        },
+        {
+          "word": "nine",
+          "confidence": 0.02130313590168953
+        },
+        {
+          "word": "zh_off",
+          "confidence": 0.01820680871605873
+        },
+        {
+          "word": "five",
+          "confidence": 0.011350322514772415
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "seven_014.wav",
+      "expected": "seven",
+      "predicted": "seven",
+      "language": "EN",
+      "confidence": 0.2626442015171051,
+      "correct": true,
+      "top5": [
+        {
+          "word": "seven",
+          "confidence": 0.2626442015171051
+        },
+        {
+          "word": "stop",
+          "confidence": 0.19859327375888824
+        },
+        {
+          "word": "four",
+          "confidence": 0.1078251525759697
+        },
+        {
+          "word": "six",
+          "confidence": 0.08122526109218597
+        },
+        {
+          "word": "zero",
+          "confidence": 0.06266780942678452
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "stop_010.wav",
+      "expected": "stop",
+      "predicted": "stop",
+      "language": "EN",
+      "confidence": 0.6383759379386902,
+      "correct": true,
+      "top5": [
+        {
+          "word": "stop",
+          "confidence": 0.6383759379386902
+        },
+        {
+          "word": "six",
+          "confidence": 0.053031522780656815
+        },
+        {
+          "word": "up",
+          "confidence": 0.03771331161260605
+        },
+        {
+          "word": "left",
+          "confidence": 0.029073912650346756
+        },
+        {
+          "word": "off",
+          "confidence": 0.022245656698942184
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "two_021.wav",
+      "expected": "two",
+      "predicted": "two",
+      "language": "EN",
+      "confidence": 0.20687054097652435,
+      "correct": true,
+      "top5": [
+        {
+          "word": "two",
+          "confidence": 0.20687054097652435
+        },
+        {
+          "word": "eight",
+          "confidence": 0.09541250020265579
+        },
+        {
+          "word": "three",
+          "confidence": 0.095376156270504
+        },
+        {
+          "word": "six",
+          "confidence": 0.08154875785112381
+        },
+        {
+          "word": "yes",
+          "confidence": 0.05882767215371132
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "up_005.wav",
+      "expected": "up",
+      "predicted": "up",
+      "language": "EN",
+      "confidence": 0.30610278248786926,
+      "correct": true,
+      "top5": [
+        {
+          "word": "up",
+          "confidence": 0.30610278248786926
+        },
+        {
+          "word": "off",
+          "confidence": 0.13017454743385315
+        },
+        {
+          "word": "stop",
+          "confidence": 0.10068870335817337
+        },
+        {
+          "word": "left",
+          "confidence": 0.077996626496315
+        },
+        {
+          "word": "eight",
+          "confidence": 0.030955791473388672
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zero_002.wav",
+      "expected": "zero",
+      "predicted": "zero",
+      "language": "EN",
+      "confidence": 0.7416700124740601,
+      "correct": true,
+      "top5": [
+        {
+          "word": "zero",
+          "confidence": 0.7416700124740601
+        },
+        {
+          "word": "two",
+          "confidence": 0.04030590504407883
+        },
+        {
+          "word": "no",
+          "confidence": 0.023668669164180756
+        },
+        {
+          "word": "seven",
+          "confidence": 0.01670471578836441
+        },
+        {
+          "word": "zh_nine",
+          "confidence": 0.015483017079532146
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_down_022.wav",
+      "expected": "zh_down",
+      "predicted": "yes",
+      "language": "ZH",
+      "confidence": 0.23259826004505157,
+      "correct": false,
+      "top5": [
+        {
+          "word": "yes",
+          "confidence": 0.23259826004505157
+        },
+        {
+          "word": "zero",
+          "confidence": 0.1368017941713333
+        },
+        {
+          "word": "left",
+          "confidence": 0.06944925338029861
+        },
+        {
+          "word": "six",
+          "confidence": 0.056128568947315216
+        },
+        {
+          "word": "seven",
+          "confidence": 0.05114317685365677
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_five_011.wav",
+      "expected": "zh_five",
+      "predicted": "yes",
+      "language": "ZH",
+      "confidence": 0.20567956566810608,
+      "correct": false,
+      "top5": [
+        {
+          "word": "yes",
+          "confidence": 0.20567956566810608
+        },
+        {
+          "word": "left",
+          "confidence": 0.09814105182886124
+        },
+        {
+          "word": "go",
+          "confidence": 0.07687646150588989
+        },
+        {
+          "word": "one",
+          "confidence": 0.07627042382955551
+        },
+        {
+          "word": "four",
+          "confidence": 0.07333464920520782
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_four_009.wav",
+      "expected": "zh_four",
+      "predicted": "six",
+      "language": "ZH",
+      "confidence": 0.5381819605827332,
+      "correct": false,
+      "top5": [
+        {
+          "word": "six",
+          "confidence": 0.5381819605827332
+        },
+        {
+          "word": "yes",
+          "confidence": 0.0618550144135952
+        },
+        {
+          "word": "seven",
+          "confidence": 0.03815007582306862
+        },
+        {
+          "word": "zh_four",
+          "confidence": 0.033367179334163666
+        },
+        {
+          "word": "stop",
+          "confidence": 0.03123454377055168
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_go_012.wav",
+      "expected": "zh_go",
+      "predicted": "go",
+      "language": "ZH",
+      "confidence": 0.4026164412498474,
+      "correct": false,
+      "top5": [
+        {
+          "word": "go",
+          "confidence": 0.4026164412498474
+        },
+        {
+          "word": "two",
+          "confidence": 0.1203315332531929
+        },
+        {
+          "word": "down",
+          "confidence": 0.08081185072660446
+        },
+        {
+          "word": "no",
+          "confidence": 0.06394375115633011
+        },
+        {
+          "word": "stop",
+          "confidence": 0.03937176242470741
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_left_006.wav",
+      "expected": "zh_left",
+      "predicted": "three",
+      "language": "ZH",
+      "confidence": 0.16122610867023468,
+      "correct": false,
+      "top5": [
+        {
+          "word": "three",
+          "confidence": 0.16122610867023468
+        },
+        {
+          "word": "eight",
+          "confidence": 0.11032453924417496
+        },
+        {
+          "word": "six",
+          "confidence": 0.06985577940940857
+        },
+        {
+          "word": "four",
+          "confidence": 0.06296320259571075
+        },
+        {
+          "word": "two",
+          "confidence": 0.058625396341085434
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_six_017.wav",
+      "expected": "zh_six",
+      "predicted": "zero",
+      "language": "ZH",
+      "confidence": 0.6881597638130188,
+      "correct": false,
+      "top5": [
+        {
+          "word": "zero",
+          "confidence": 0.6881597638130188
+        },
+        {
+          "word": "no",
+          "confidence": 0.07272343337535858
+        },
+        {
+          "word": "two",
+          "confidence": 0.0563373863697052
+        },
+        {
+          "word": "zh_nine",
+          "confidence": 0.018669968470931053
+        },
+        {
+          "word": "go",
+          "confidence": 0.018098652362823486
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_stop_020.wav",
+      "expected": "zh_stop",
+      "predicted": "yes",
+      "language": "ZH",
+      "confidence": 0.10771020501852036,
+      "correct": false,
+      "top5": [
+        {
+          "word": "yes",
+          "confidence": 0.10771020501852036
+        },
+        {
+          "word": "six",
+          "confidence": 0.09591645002365112
+        },
+        {
+          "word": "eight",
+          "confidence": 0.09449108690023422
+        },
+        {
+          "word": "go",
+          "confidence": 0.08419311046600342
+        },
+        {
+          "word": "two",
+          "confidence": 0.08263044059276581
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_three_003.wav",
+      "expected": "zh_three",
+      "predicted": "seven",
+      "language": "ZH",
+      "confidence": 0.2523937523365021,
+      "correct": false,
+      "top5": [
+        {
+          "word": "seven",
+          "confidence": 0.2523937523365021
+        },
+        {
+          "word": "five",
+          "confidence": 0.09674947708845139
+        },
+        {
+          "word": "six",
+          "confidence": 0.08268412947654724
+        },
+        {
+          "word": "stop",
+          "confidence": 0.07304524630308151
+        },
+        {
+          "word": "zero",
+          "confidence": 0.06837303191423416
+        }
+      ]
+    },
+    {
+      "folder": "20260618_004206",
+      "file": "zh_zero_015.wav",
+      "expected": "zh_zero",
+      "predicted": "eight",
+      "language": "ZH",
+      "confidence": 0.13500922918319702,
+      "correct": false,
+      "top5": [
+        {
+          "word": "eight",
+          "confidence": 0.13500922918319702
+        },
+        {
+          "word": "three",
+          "confidence": 0.08649137616157532
+        },
+        {
+          "word": "six",
+          "confidence": 0.07572925090789795
+        },
+        {
+          "word": "four",
+          "confidence": 0.07198242098093033
+        },
+        {
+          "word": "right",
+          "confidence": 0.052025698125362396
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "accuracy": 0.9515374587838356,
+  "macro_precision": 0.9729757960042107,
+  "macro_recall": 0.9726679598446323,
+  "macro_f1": 0.9727096536646606,
+  "weighted_precision": 0.9520780561152145,
+  "weighted_recall": 0.9515374587838356,
+  "weighted_f1": 0.9516106712667566,
+  "metadata": {
+    "model_path": "D:\\\u684c\u9762\\\u5c4e\\\u4fe1\u53f7\u4e0e\u7cfb\u7edf\\\u8bfe\u7a0b\u8bbe\u8ba1\\speech_cnn_project\\models\\v2_bilingual_40\\bilingual_v4_weighted_sqrt\\best_model.pth",
+    "config_path": "D:\\\u684c\u9762\\\u5c4e\\\u4fe1\u53f7\u4e0e\u7cfb\u7edf\\\u8bfe\u7a0b\u8bbe\u8ba1\\speech_cnn_project\\models\\v2_bilingual_40\\bilingual_v4_weighted_sqrt\\config.json",
+    "config_data_dir": "../data/processed_mixed_v4",
+    "evaluated_data_dir": "D:\\\u684c\u9762\\\u5c4e\\\u4fe1\u53f7\u4e0e\u7cfb\u7edf\\\u8bfe\u7a0b\u8bbe\u8ba1\\speech_cnn_project\\data\\processed_mixed_v4",
+    "data_dir_source": "model config DATA_DIR",
+    "num_classes": 40,
+    "run_name": "bilingual_v4_weighted_sqrt",
+    "use_class_weights": true,
+    "over_sample": false
+  },
+  "per_class": {
+    "yes": {
+      "precision": 0.9728353140916808,
+      "recall": 0.9646464646464646,
+      "f1": 0.9687235841081995,
+      "support": 594
+    },
+    "no": {
+      "precision": 0.9270833333333334,
+      "recall": 0.9206896551724137,
+      "f1": 0.9238754325259516,
+      "support": 580
+    },
+    "up": {
+      "precision": 0.8946459412780656,
+      "recall": 0.9539594843462247,
+      "f1": 0.9233511586452763,
+      "support": 543
+    },
+    "down": {
+      "precision": 0.9377224199288257,
+      "recall": 0.8977853492333902,
+      "f1": 0.917319408181027,
+      "support": 587
+    },
+    "left": {
+      "precision": 0.9573283858998145,
+      "recall": 0.9381818181818182,
+      "f1": 0.9476584022038568,
+      "support": 550
+    },
+    "right": {
+      "precision": 0.9559082892416225,
+      "recall": 0.9328743545611016,
+      "f1": 0.9442508710801394,
+      "support": 581
+    },
+    "on": {
+      "precision": 0.9558823529411765,
+      "recall": 0.8996539792387543,
+      "f1": 0.9269162210338681,
+      "support": 578
+    },
+    "off": {
+      "precision": 0.9343971631205674,
+      "recall": 0.9427549194991055,
+      "f1": 0.9385574354407836,
+      "support": 559
+    },
+    "stop": {
+      "precision": 0.9635157545605307,
+      "recall": 0.9731993299832495,
+      "f1": 0.9683333333333334,
+      "support": 597
+    },
+    "go": {
+      "precision": 0.8771121351766513,
+      "recall": 0.9299674267100977,
+      "f1": 0.9027667984189723,
+      "support": 614
+    },
+    "zero": {
+      "precision": 0.9594813614262561,
+      "recall": 0.961038961038961,
+      "f1": 0.9602595296025953,
+      "support": 616
+    },
+    "one": {
+      "precision": 0.9761499148211243,
+      "recall": 0.9597989949748744,
+      "f1": 0.9679054054054054,
+      "support": 597
+    },
+    "two": {
+      "precision": 0.9131944444444444,
+      "recall": 0.9581056466302368,
+      "f1": 0.9351111111111111,
+      "support": 549
+    },
+    "three": {
+      "precision": 0.974169741697417,
+      "recall": 0.946236559139785,
+      "f1": 0.96,
+      "support": 558
+    },
+    "four": {
+      "precision": 0.9438596491228071,
+      "recall": 0.9539007092198581,
+      "f1": 0.9488536155202821,
+      "support": 564
+    },
+    "five": {
+      "precision": 0.9282136894824707,
+      "recall": 0.9488054607508533,
+      "f1": 0.9383966244725739,
+      "support": 586
+    },
+    "six": {
+      "precision": 0.9605911330049262,
+      "recall": 0.9637561779242174,
+      "f1": 0.962171052631579,
+      "support": 607
+    },
+    "seven": {
+      "precision": 0.9511400651465798,
+      "recall": 0.9621087314662273,
+      "f1": 0.9565929565929566,
+      "support": 607
+    },
+    "eight": {
+      "precision": 0.970856102003643,
+      "recall": 0.9569120287253142,
+      "f1": 0.9638336347197106,
+      "support": 557
+    },
+    "nine": {
+      "precision": 0.9649446494464945,
+      "recall": 0.9423423423423424,
+      "f1": 0.9535095715587967,
+      "support": 555
+    },
+    "zh_yes": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 66
+    },
+    "zh_no": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 79
+    },
+    "zh_up": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 62
+    },
+    "zh_down": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 67
+    },
+    "zh_left": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 66
+    },
+    "zh_right": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 84
+    },
+    "zh_on": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 80
+    },
+    "zh_off": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 63
+    },
+    "zh_stop": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 68
+    },
+    "zh_go": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 66
+    },
+    "zh_zero": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 112
+    },
+    "zh_one": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 101
+    },
+    "zh_two": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 58
+    },
+    "zh_three": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 69
+    },
+    "zh_four": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 76
+    },
+    "zh_five": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 80
+    },
+    "zh_six": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 67
+    },
+    "zh_seven": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 65
+    },
+    "zh_eight": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 63
+    },
+    "zh_nine": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 70
+    }
+  }
+}

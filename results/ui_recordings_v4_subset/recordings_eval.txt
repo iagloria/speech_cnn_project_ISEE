@@ -1,0 +1,24 @@
+Saved UI Recordings Evaluation
+============================================================
+Model: models\v2_bilingual_40\bilingual_v4_weighted_sqrt\best_model.pth
+Recordings: recordings\20260618_004206
+
+overall:  52.17% (12/23)
+     EN:  85.71% (12/14)
+     ZH:   0.00% (0/9)
+
+Per folder:
+  20260618_004206:  52.17% (12/23)
+
+Mistakes:
+  20260618_004206/down_013.wav: down -> go (31.5%)
+  20260618_004206/on_001.wav: on -> up (16.6%)
+  20260618_004206/zh_down_022.wav: zh_down -> yes (23.3%)
+  20260618_004206/zh_five_011.wav: zh_five -> yes (20.6%)
+  20260618_004206/zh_four_009.wav: zh_four -> six (53.8%)
+  20260618_004206/zh_go_012.wav: zh_go -> go (40.3%)
+  20260618_004206/zh_left_006.wav: zh_left -> three (16.1%)
+  20260618_004206/zh_six_017.wav: zh_six -> zero (68.8%)
+  20260618_004206/zh_stop_020.wav: zh_stop -> yes (10.8%)
+  20260618_004206/zh_three_003.wav: zh_three -> seven (25.2%)
+  20260618_004206/zh_zero_015.wav: zh_zero -> eight (13.5%)

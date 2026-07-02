@@ -1,0 +1,34 @@
+# Speech CNN Project — Python 依赖
+# ====================================
+# 安装: pip install -r requirements.txt
+# 推荐: 先创建虚拟环境再安装
+#   python -m venv venv
+#   source venv/bin/activate  (Linux/Mac)
+#   venv\Scripts\activate     (Windows)
+#   pip install -r requirements.txt
+
+# 深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 音频处理
+librosa>=0.10.0
+soundfile>=0.12.0
+scipy>=1.10.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 机器学习工具
+scikit-learn>=1.3.0
+
+# 进度条
+tqdm>=4.65.0
+
+# (可选) TTS 中文语音合成
+edge-tts>=6.0.0
